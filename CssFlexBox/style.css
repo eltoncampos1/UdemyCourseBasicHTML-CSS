@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+.my-container {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: 60px auto;
+    background-color: purple;
+    border-radius: 8px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items:center;
+    align-content: center;
+}
+
+.my-item {
+    height: 50px;
+    background-color: #21f8bb;
+    border-radius: 8px;
+    padding: 30px;
+    border: 4px solid black;
+    flex-basis: 500px;
+}
+
+.order-1 {
+  order: 1;  
+}
+.order-2 {
+  order: 2;  
+}
+.order-3 {
+    order: 3;  
+}
+.order-4 {
+    order: 4;  
+}
+
+.shrink1 {
+    flex-shrink: 1;
+}
+.shrink2 {
+    flex-shrink: 2;
+}
+.shrink5 {
+    flex-shrink: 5;
+}
+.shrink1 {
+    flex-shrink: 1;
+}
+.shrink2 {
+    flex-shrink: 2;
+}
+.shrink5 {
+    flex-grow: 5;
+}
+
+.self-top {
+    align-self: flex-end;
+}

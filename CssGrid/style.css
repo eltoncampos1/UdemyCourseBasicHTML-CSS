@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mybox {
+    background-color: blue;
+    height: 100px;
+}
+
+.mybox div {
+    background-color: yellowgreen;
+    height: 80px;
+    margin-top: 10px;
+}
+.mybox .div1 {
+    background-color: purple;
+}
+
+.mybox .div2 {
+    background-color: violet;
+}
+.mybox .div3 {
+    background-color: red;
+}
